@@ -1,9 +1,9 @@
 Be The Hero
 
 Lembretes:
-para incluir as criaçẽos de tags automáticas para React: 
+para incluir as criações de tags automáticas para o React: 
 
-Com o emmet em "settings.json:
+Com o emmet, em "settings.json":
 
 {
     "emmet.syntaxProfiles": {"javascript": "jsx"},
