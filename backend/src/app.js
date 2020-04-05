@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors'); 
-
+const {erros} = require('celebrate');
 const app = express();
 
 const routes = require('./routes');
@@ -10,5 +10,4 @@ app.use(express.json());
 
 app.use(routes);
 
-app.listen(3333);
-
+module.exports = app;
